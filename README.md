@@ -37,16 +37,19 @@ Aqui optou-se por utilizar uma tabela resumindo os dados.
 Para responder essa pergunta, foi preciso seguir alguma etapas, descritas abaixo:
 1 - Criar uma tabela com os anos disponíveis da base de dados para criar o eixo X;
 2 - Criar uma coluna calculada para ter valores númericos do tempo de término da prova. Esta medida transforma o tempo total em segundos.
-  Time Seconds = 
-  HOUR(IM[Time])* 3600 + MINUTE(IM[Time]) * 60 + SECOND(IM[Time])
+  
+    Time Seconds = 
+    HOUR(IM[Time])* 3600 + MINUTE(IM[Time]) * 60 + SECOND(IM[Time])
+  
 3 - Criar uma medida para transformar o tempo em uma string e utilizar como rótulo de dados no gráfico de linhas.
-  Time Formated = 
-  VAR TotalSegundos = SUM('IM'[Time Seconds])
-  VAR Horas = INT(TotalSegundos / 3600)
-  VAR Minutos = INT(MOD(TotalSegundos, 3600) / 60)
-  VAR Segundos = MOD(TotalSegundos, 60)
-  RETURN
-  FORMAT(Horas, "00") & ":" & FORMAT(Minutos, "00") & ":" & FORMAT(Segundos, "00")
+      
+      Time Formated = 
+      VAR TotalSegundos = SUM('IM'[Time Seconds])
+      VAR Horas = INT(TotalSegundos / 3600)
+      VAR Minutos = INT(MOD(TotalSegundos, 3600) / 60)
+      VAR Segundos = MOD(TotalSegundos, 60)
+      RETURN
+      FORMAT(Horas, "00") & ":" & FORMAT(Minutos, "00") & ":" & FORMAT(Segundos, "00")
 ![image](https://github.com/gsalmei/IronmanPBI/assets/134868461/63692a5d-f7a3-46a1-a811-ef8c76e1e2cb)
 
 Como resultado final, obtemos o dashboard abaixo:
