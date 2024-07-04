@@ -3,11 +3,17 @@ Ironman World Championship Until 2019.
 Este projeto tem como objetivo criar um dashboard com os resultados do Campionato Mundial de Ironman até o ano de 2019.
 
 Para isso, foram definidas as seguintes perguntas a serem respondidas:
+
 1 - De acordo com o ano, quem foram os vencedores, seus tempos e suas nacionalidades?
+
 2 - Quem são os atletas com maior número de vitórias?
+
 3 - Quais são os países com maior número de vencedores?
+
 4 - De acordo com o ano, quem foram os atletas que formaram o pódio?
+
 5 - Qual foi a evolução, nos últimos 10 anos, do tempo que o atleta vencedor levou para completar a prova?
+
 
 Design
 O design do dashboard foi criado com o Figma, utilizando como referência o próprio site do Ironman, utilizando principalmente as cores vermelho, preto e branco para o fundo dos gráficos.
