@@ -11,6 +11,8 @@ Para isso, foram definidas as seguintes perguntas a serem respondidas:
 
 Design
 O design do dashboard foi criado com o Figma, utilizando como referência o próprio site do Ironman, utilizando principalmente as cores vermelho, preto e branco para o fundo dos gráficos.
+![image](https://github.com/gsalmei/IronmanPBI/assets/134868461/a1accdf3-9d07-4bec-ace6-56aabc32cb8d)
+
 
 Respondendo as perguntas de negócio:
 1 - De acordo com o ano, quem foram os vencedores, seus tempos e suas nacionalidades?
@@ -46,3 +48,7 @@ Para responder essa pergunta, foi preciso seguir alguma etapas, descritas abaixo
   RETURN
   FORMAT(Horas, "00") & ":" & FORMAT(Minutos, "00") & ":" & FORMAT(Segundos, "00")
 ![image](https://github.com/gsalmei/IronmanPBI/assets/134868461/63692a5d-f7a3-46a1-a811-ef8c76e1e2cb)
+
+Como resultado final, obtemos o dashboard abaixo:
+![image](https://github.com/gsalmei/IronmanPBI/assets/134868461/1c8918d0-337b-454e-b271-ea061dbdfa9d)
+
