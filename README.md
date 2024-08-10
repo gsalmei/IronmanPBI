@@ -65,3 +65,9 @@ As a final result, we obtained the dashboard below:
 ![image](https://github.com/gsalmei/IronmanPBI/assets/134868461/1c8918d0-337b-454e-b271-ea061dbdfa9d)
 
 
+Link to access the report:
+
+
+https://app.powerbi.com/view?r=eyJrIjoiMzg5MGFjYzctM2Y2Ni00MGE2LWEzNjAtZmZmMWJlNWVhOWYzIiwidCI6IjkxYTZhNTY5LTM0ZmItNGNiNC05OWE1LWIwMDllNjhlZTU1NSJ9
+
+
